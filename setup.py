@@ -15,7 +15,8 @@ setup(
 	long_description_content_type='text/markdown',
 	author='Ashwin Karichannavar',
 	author_email='ashwinkk.23@gmail.com',
-	url="https://github.com/tee-lab/pydaddy",
+	#url="https://github.com/tee-lab/pydaddy",
+	url="https://github.com/JOYA-GD/pydaddy",
 	packages=find_packages(),
 	classifiers=[
 		# How mature is this project? Common values are
