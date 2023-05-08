@@ -398,6 +398,7 @@ def load_sample_dataset(name):
     data_dict = {
         'fish-data-etroplus': 'data/fish_data/ectropus.csv',
         'model-data-scalar-pairwise': 'data/model_data/scalar/pairwise.csv',
+        'model-data-scalar-sde-input': 'data/model_data/scalar/sde-input.csv',
         'model-data-scalar-ternary': 'data/model_data/scalar/ternary.csv',
         'model-data-vector-pairwise': 'data/model_data/vector/pairwise.csv',
         'model-data-vector-ternary': 'data/model_data/vector/ternary.csv'
