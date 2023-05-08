@@ -347,6 +347,7 @@ def _load_sample_data(data_path):
         └── model_data
             ├── scalar
             │   ├── pairwise.csv
+            │   ├── sde-input.csv
             │   └── ternary.csv
             └── vector
                 ├── pairwise.csv
@@ -378,6 +379,7 @@ def load_sample_dataset(name):
 
         'fish-data-etroplus'
         'model-data-scalar-pairwise'
+        'model-data-scalar-sde-input'
         'model-data-scalar-ternary'
         'model-data-vector-pairwise'
         'model-data-vector-ternary'
