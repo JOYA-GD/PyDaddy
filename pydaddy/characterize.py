@@ -348,6 +348,7 @@ def _load_sample_data(data_path):
             ├── scalar
             │   ├── pairwise.csv
             │   ├── test0.csv
+            │   ├── test1.csv
             │   └── ternary.csv
             └── vector
                 ├── pairwise.csv
@@ -380,6 +381,7 @@ def load_sample_dataset(name):
         'fish-data-etroplus'
         'model-data-scalar-pairwise'
         'model-data-scalar-test0'
+        'model-data-scalar-test1'
         'model-data-scalar-ternary'
         'model-data-vector-pairwise'
         'model-data-vector-ternary'
@@ -401,6 +403,7 @@ def load_sample_dataset(name):
         'fish-data-etroplus': 'data/fish_data/ectropus.csv',
         'model-data-scalar-pairwise': 'data/model_data/scalar/pairwise.csv',
         'model-data-scalar-test0': 'data/model_data/scalar/test0.csv',
+        'model-data-scalar-test1': 'data/model_data/scalar/test1.csv',
         'model-data-scalar-ternary': 'data/model_data/scalar/ternary.csv',
         'model-data-vector-pairwise': 'data/model_data/vector/pairwise.csv',
         'model-data-vector-ternary': 'data/model_data/vector/ternary.csv'
