@@ -349,6 +349,13 @@ def _load_sample_data(data_path):
             │   ├── pairwise.csv
             │   ├── test0.csv
             │   ├── test1.csv
+            │   ├── test99.csv
+            │   ├── test199.csv
+            │   ├── test299.csv
+            │   ├── test399.csv
+            │   ├── test499.csv
+            │   ├── test599.csv
+            │   ├── test699.csv
             │   └── ternary.csv
             └── vector
                 ├── pairwise.csv
@@ -382,6 +389,13 @@ def load_sample_dataset(name):
         'model-data-scalar-pairwise'
         'model-data-scalar-test0'
         'model-data-scalar-test1'
+        'model-data-scalar-test99'
+        'model-data-scalar-test199'
+        'model-data-scalar-test299'
+        'model-data-scalar-test399'
+        'model-data-scalar-test499'
+        'model-data-scalar-test599'
+        'model-data-scalar-test699'
         'model-data-scalar-ternary'
         'model-data-vector-pairwise'
         'model-data-vector-ternary'
@@ -404,6 +418,13 @@ def load_sample_dataset(name):
         'model-data-scalar-pairwise': 'data/model_data/scalar/pairwise.csv',
         'model-data-scalar-test0': 'data/model_data/scalar/test0.csv',
         'model-data-scalar-test1': 'data/model_data/scalar/test1.csv',
+        'model-data-scalar-test99': 'data/model_data/scalar/test99.csv',
+        'model-data-scalar-test199': 'data/model_data/scalar/test199.csv',
+        'model-data-scalar-test299': 'data/model_data/scalar/test299.csv',
+        'model-data-scalar-test399': 'data/model_data/scalar/test399.csv',
+        'model-data-scalar-test499': 'data/model_data/scalar/test499.csv',
+        'model-data-scalar-test599': 'data/model_data/scalar/test599.csv',
+        'model-data-scalar-test699': 'data/model_data/scalar/test699.csv',
         'model-data-scalar-ternary': 'data/model_data/scalar/ternary.csv',
         'model-data-vector-pairwise': 'data/model_data/vector/pairwise.csv',
         'model-data-vector-ternary': 'data/model_data/vector/ternary.csv'
